@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5107c372e7446d1409108722ab315e60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shesternia: {fileID: 0}
+  shesternia: {fileID: 3668777443580540626, guid: 7381e4dbe5d95bd4d8265e080cd14801, type: 3}
 --- !u!1 &3010825774795194518
 GameObject:
   m_ObjectHideFlags: 0
@@ -69,7 +69,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3010825774795194518}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 20, y: 0, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3826652013126019732}
@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c0af2e1b75aa7642819936aa3a21439, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifetime: 5
+  lifetime: 15
 --- !u!1 &5737555075809287204
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,4 +133,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5107c372e7446d1409108722ab315e60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shesternia: {fileID: 0}
+  shesternia: {fileID: 3668777443580540626, guid: 7381e4dbe5d95bd4d8265e080cd14801, type: 3}
