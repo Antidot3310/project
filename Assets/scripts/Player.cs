@@ -14,8 +14,14 @@ public class Player : MonoBehaviour
     public GameObject effect;
     public Text healthDisplay;
     public GameObject panel;
-
+    public GameObject[] sounds;
     public int health=5;
+
+    private Animator camAnim;
+    private void start()
+    {
+        camAnim = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Animator>();
+    }
 
     private void Update()
     {
@@ -29,11 +35,16 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.W) && transform.position.y < maxHeight)
         {
+            int rand = Random.Range(0, sounds.Length);
+            Instantiate(sounds[rand], transform.position, Quaternion.identity);
             Instantiate(effect, transform.position, Quaternion.identity);
             targetPos = new Vector2(transform.position.x, transform.position.y + Yincrement);
         }
         else if (Input.GetKeyDown(KeyCode.S) && transform.position.y > minHeight)
         {
+        
+            int rand = Random.Range(0, sounds.Length);
+            Instantiate(sounds[rand], transform.position, Quaternion.identity);
             Instantiate(effect, transform.position, Quaternion.identity);
             targetPos = new Vector2(transform.position.x, transform.position.y - Yincrement);
         }
