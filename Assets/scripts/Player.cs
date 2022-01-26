@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     public GameObject[] sounds;
     public int health=5;
 
+
     private Animator camAnim;
     private void start()
     {
