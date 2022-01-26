@@ -14,16 +14,13 @@ public class Restart : MonoBehaviour
     {
         score.text = ("¬аш счЄт: ") + sm.score.ToString();
     }
-    private void Update()
+    public void RestartGame()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            SceneManager.LoadScene("Level");
-        }
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            SceneManager.LoadScene("Menu");
-        }
+        SceneManager.LoadScene("Level");
     }
 
+    public void Menu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }

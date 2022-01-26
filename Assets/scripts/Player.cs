@@ -16,12 +16,15 @@ public class Player : MonoBehaviour
     public GameObject panel;
     public GameObject[] sounds;
     public int health=5;
+    public Text scoredisable;
 
 
     private Animator camAnim;
     private void start()
     {
+        scoredisable = GetComponent<Text>();
         camAnim = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Animator>();
+        scoredisable.enabled = true;
     }
 
     private void Update()
@@ -31,17 +34,18 @@ public class Player : MonoBehaviour
         {
             panel.SetActive(true);
             Destroy(gameObject);
+            scoredisable.enabled = false;
         }
         transform.position = Vector2.MoveTowards(transform.position, targetPos, speed);
 
-        if (Input.GetKeyDown(KeyCode.W) && transform.position.y < maxHeight)
+        if (Input.GetKeyDown(KeyCode.W) && transform.position.y < maxHeight && Time.timeScale == 1f)
         {
             int rand = Random.Range(0, sounds.Length);
             Instantiate(sounds[rand], transform.position, Quaternion.identity);
             Instantiate(effect, transform.position, Quaternion.identity);
             targetPos = new Vector2(transform.position.x, transform.position.y + Yincrement);
         }
-        else if (Input.GetKeyDown(KeyCode.S) && transform.position.y > minHeight)
+        else if (Input.GetKeyDown(KeyCode.S) && transform.position.y > minHeight && Time.timeScale == 1f)
         {
         
             int rand = Random.Range(0, sounds.Length);

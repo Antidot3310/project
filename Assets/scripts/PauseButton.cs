@@ -22,6 +22,9 @@ public class PauseButton : MonoBehaviour
 
     public void Menu()
     {
+        PauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        GameisPaused = false;
         SceneManager.LoadScene("Menu");
     }
     public void Resume()

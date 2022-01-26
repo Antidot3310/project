@@ -10,6 +10,7 @@ public class shesternia : MonoBehaviour
     public GameObject effect;
     public GameObject sound;
 
+
     private Animator camAnim;
     private void start()
     {
@@ -19,7 +20,10 @@ public class shesternia : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(Vector2.left * speed);
+        if (Time.timeScale == 1f)
+        {
+            transform.Translate(Vector2.left * speed);
+        }
     }
      private void OnTriggerEnter2D(Collider2D other)
     {
