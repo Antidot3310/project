@@ -148,9 +148,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  speed: 0.02
+  speedsh: 0.02
   effect: {fileID: 8438928437697173150, guid: e1df499e4df5f7749b93dbb8113d80f1, type: 3}
   sound: {fileID: 7856104782042039195, guid: 83014afc18649c24790b9ea74230b0c1, type: 3}
+  startTimeBtwSpawnSp: 2.2
 --- !u!1 &7212867695225963588
 GameObject:
   m_ObjectHideFlags: 0

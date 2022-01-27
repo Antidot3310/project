@@ -1448,8 +1448,9 @@ MonoBehaviour:
   - {fileID: 3512348886589953440, guid: 2ebde78e3da4376438c3adf5814853b5, type: 3}
   - {fileID: 3010825774795194518, guid: faebf7f19943e114ea61aece98d96575, type: 3}
   startTimeBtwSpawn: 2.2
-  decreaseTime: 0.02
-  minTime: 1.5
+  maxspeedsh: 0.08
+  decreasespeedsh: 0.001
+  speedsh: 0.02
 --- !u!4 &827456214
 Transform:
   m_ObjectHideFlags: 0

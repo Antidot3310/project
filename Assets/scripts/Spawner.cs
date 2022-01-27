@@ -8,19 +8,20 @@ public class Spawner : MonoBehaviour
 
     private float timeBtwSpawn;
     public float startTimeBtwSpawn;
-    public float decreaseTime;
-    public float minTime = 0.65f;
+    public float maxspeedsh;
+    public float decreasespeedsh;
+    public float speedsh;
 
     private void Update()
     {
-        if(timeBtwSpawn <= 0)
+        if (timeBtwSpawn <= 0)
         {
             int rand = Random.Range(0, shesterniaVariants.Length);
             Instantiate(shesterniaVariants[rand], transform.position, Quaternion.identity);
             timeBtwSpawn = startTimeBtwSpawn;
-            if(startTimeBtwSpawn > minTime)
+            if (speedsh < maxspeedsh)
             {
-                startTimeBtwSpawn -= decreaseTime;
+                speedsh += decreasespeedsh;
             }
         }
         else
