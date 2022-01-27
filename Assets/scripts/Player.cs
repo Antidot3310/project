@@ -32,6 +32,7 @@ public class Player : MonoBehaviour
         healthDisplay.text = health.ToString();
         if (health<=0)
         {
+            Time.timeScale = 0f;
             panel.SetActive(true);
             Destroy(gameObject);
             scoredisable.enabled = false;

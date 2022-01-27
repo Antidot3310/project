@@ -16,11 +16,13 @@ public class Restart : MonoBehaviour
     }
     public void RestartGame()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("Level");
     }
 
     public void Menu()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("Menu");
     }
 }
