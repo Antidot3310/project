@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,10 +118,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 910, y: 271}
-  m_MaxSize: {x: 22005, y: 10021}
+  m_MinSize: {x: 909, y: 250}
+  m_MaxSize: {x: 22004, y: 10000}
   vertical: 1
-  controlID: 12234
+  controlID: 4133
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,10 +145,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
-  m_MinSize: {x: 910, y: 271}
-  m_MaxSize: {x: 22005, y: 10021}
+  m_MinSize: {x: 909, y: 250}
+  m_MaxSize: {x: 22004, y: 10000}
   vertical: 0
-  controlID: 12235
+  controlID: 4134
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,7 +230,7 @@ MonoBehaviour:
   - {fileID: 11}
   - {fileID: 17}
   m_Selected: 1
-  m_LastSelected: 0
+  m_LastSelected: 2
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,8 +250,8 @@ MonoBehaviour:
     y: 0
     width: 474
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -293,7 +293,7 @@ MonoBehaviour:
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_MaximizeOnPlay: 0
+  m_MaximizeOnPlay: 1
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
@@ -375,9 +375,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 88520000
+      m_SelectedIDs: 40510000
       m_LastClickedID: 0
-      m_ExpandedIDs: 8a7dfeff36a6feff4aa6feff5ca6feff6ea6feffcca6feffdea6feff5888ffff1e8affff128dffff2cb3ffff48fbffff
+      m_ExpandedIDs: 24a7fffff8bfffff80d7ffff14fbffff4c440000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -447,14 +447,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: D:\Vr project\slis.io\project
+  m_LastProjectPath: D:\slis.io\project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3e450000
-    m_LastClickedID: 17726
-    m_ExpandedIDs: 000000002c4500002e45000030450000324500003445000000ca9a3b
+    m_SelectedIDs: 72450000
+    m_LastClickedID: 17778
+    m_ExpandedIDs: 000000005c4500005e45000060450000624500006445000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -482,7 +482,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002c4500002e45000030450000324500003445000000ca9a3b
+    m_ExpandedIDs: 000000005c4500005e45000060450000624500006445000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -509,7 +509,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ec420000a4550000000000001c810000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -627,9 +627,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.5742383, y: -10.902093, z: -1316.7207}
+    m_Target: {x: 439.6051, y: 397.6507, z: -1419.5475}
     speed: 2
-    m_Value: {x: 5.5742383, y: -10.902093, z: -1316.7207}
+    m_Value: {x: 439.6051, y: 397.6507, z: -1419.5475}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -680,9 +680,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 33.006615
+    m_Target: 537.7731
     speed: 2
-    m_Value: 33.006615
+    m_Value: 537.7731
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -727,9 +727,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 433
+    x: 460
     y: 73
-    width: 1209
+    width: 984
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
