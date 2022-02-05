@@ -12,7 +12,7 @@ public class Restart : MonoBehaviour
 
     private void Awake()
     {
-        score.text = ("¬аш счЄт: ") + sm.score.ToString();
+        score.text = ("Score: ") + sm.score.ToString();
     }
     public void RestartGame()
     {
