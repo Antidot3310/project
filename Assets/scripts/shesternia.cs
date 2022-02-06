@@ -9,13 +9,12 @@ public class shesternia : MonoBehaviour
     public float speedsh;
     public GameObject effect;
     public GameObject sound;
-    
     private void Update()
     {
         if (Time.timeScale == 1f)
         {
             transform.position = new Vector2(transform.position.x - speedsh, transform.position.y);
-       
+
         }
     }
     private void OnTriggerEnter2D(Collider2D other)

@@ -10,7 +10,7 @@ public class Spawner : MonoBehaviour
     public float startTimeBtwSpawn;
     public void Start()
     {
-        timeBtwSpawn = startTimeBtwSpawn; 
+        timeBtwSpawn = startTimeBtwSpawn;
     }
 
     private void Update()
@@ -19,7 +19,7 @@ public class Spawner : MonoBehaviour
         {
             int rand = Random.Range(0, shesterniaVariants.Length);
             Instantiate(shesterniaVariants[rand], transform.position, Quaternion.identity);
-            timeBtwSpawn = startTimeBtwSpawn;          
+            timeBtwSpawn = startTimeBtwSpawn;
         }
         else
         {
